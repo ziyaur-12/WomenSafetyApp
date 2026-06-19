@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "com.example.womensafetyapp-mergeDebugResources-39:/layout/activity_fake_call.xml",
+        "source": "com.example.womensafetyapp-main-42:/layout/activity_fake_call.xml"
+    },
+    {
+        "merged": "com.example.womensafetyapp-mergeDebugResources-39:/layout/activity_main.xml",
+        "source": "com.example.womensafetyapp-main-42:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.example.womensafetyapp-mergeDebugResources-39:/layout/activity_contacts.xml",
+        "source": "com.example.womensafetyapp-main-42:/layout/activity_contacts.xml"
+    },
+    {
+        "merged": "com.example.womensafetyapp-mergeDebugResources-39:/layout/activity_maps.xml",
+        "source": "com.example.womensafetyapp-main-42:/layout/activity_maps.xml"
+    },
+    {
+        "merged": "com.example.womensafetyapp-mergeDebugResources-39:/layout/activity_login.xml",
+        "source": "com.example.womensafetyapp-main-42:/layout/activity_login.xml"
+    }
+]
