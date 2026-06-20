@@ -182,6 +182,143 @@ WomenSafetyApp/
 ├── gradle.properties
 └── settings.gradle
 ```
+# 🚀 How to Run the Project
+
+## Prerequisites
+
+Before running the project, make sure the following tools are installed:
+
+* Android Studio (Latest Version Recommended)
+* JDK 17 or above
+* Android SDK
+* Git
+* Firebase Account
+* Google Maps API Key
+
+---
+
+## Step 1: Clone the Repository
+
+```bash
+git clone https://github.com/ziyaur-12/WomenSafetyApp.git
+```
+
+Or download the ZIP file and extract it.
+
+---
+
+## Step 2: Open Project in Android Studio
+
+1. Open Android Studio.
+2. Click **Open Project**.
+3. Select the cloned `WomenSafetyApp` folder.
+4. Wait for Gradle Sync to complete.
+
+---
+
+## Step 3: Configure Firebase
+
+1. Go to Firebase Console.
+2. Create a new Firebase Project.
+3. Add an Android App.
+4. Download `google-services.json`.
+5. Place the file inside:
+
+```text
+app/google-services.json
+```
+
+---
+
+## Step 4: Configure Google Maps API
+
+1. Open Google Cloud Console.
+2. Enable Maps SDK for Android.
+3. Generate an API Key.
+4. Open:
+
+```text
+app/src/main/AndroidManifest.xml
+```
+
+5. Replace the placeholder API key with your own key.
+
+---
+
+## Step 5: Sync Gradle
+
+Click:
+
+```text
+File → Sync Project with Gradle Files
+```
+
+Wait until all dependencies are downloaded successfully.
+
+---
+
+## Step 6: Connect Device
+
+### Option A: Physical Device
+
+* Enable Developer Options.
+* Enable USB Debugging.
+* Connect device using USB.
+
+### Option B: Emulator
+
+* Open Device Manager.
+* Create Virtual Device.
+* Start Emulator.
+
+---
+
+## Step 7: Run the Application
+
+Click the **Run ▶** button in Android Studio.
+
+The application will be installed and launched automatically.
+
+---
+
+## Common Issues
+
+### Gradle Sync Failed
+
+```text
+File → Invalidate Caches → Restart
+```
+
+### Firebase Error
+
+Verify that:
+
+```text
+google-services.json
+```
+
+exists inside the app folder.
+
+### Maps Not Loading
+
+Verify:
+
+* Internet Connection
+* Maps SDK Enabled
+* Valid API Key
+
+---
+
+## Expected Output
+
+After successful setup:
+
+* User Registration/Login works
+* SOS Feature works
+* Emergency Contacts work
+* Live Location Tracking works
+* Google Maps integration works
+
 
 ---
 
