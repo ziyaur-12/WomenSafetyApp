@@ -41,6 +41,24 @@ A feature-rich Android application built with **Kotlin** and **Firebase** to emp
 - Auto-redirects to login if the session has expired
 
 ---
+## 📸 Application Screenshots
+
+### Login Screen
+
+![Login](screenshots/login.png)
+
+### Home Screen
+
+![Home](screenshots/home.png)
+
+### SOS Alert Feature
+
+![SOS](screenshots/sos.png)
+
+### Location Tracking
+
+![Maps](screenshots/maps.png)
+
 
 ## 🏗️ Architecture
 
