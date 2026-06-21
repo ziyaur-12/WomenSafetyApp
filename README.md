@@ -106,6 +106,29 @@ app/src/main/java/com/example/womensafetyapp/
 
 ---
 
+## 📸 Screenshots
+
+### Login Screen
+
+![Login Screen](screenshots/login.png)
+
+### Home Screen
+
+![Home Screen](screenshots/home.png)
+
+### SOS Feature
+
+![SOS Feature](screenshots/sos.png)
+
+### Emergency Contacts
+
+![Emergency Contacts](screenshots/emergency_contacts.png)
+
+### Location Tracking
+
+![Location Tracking](screenshots/maps.png)
+
+
 ## 🚀 Getting Started
 
 ### 1. Clone the repository
